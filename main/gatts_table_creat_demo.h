@@ -12,6 +12,17 @@
 #include <string.h>
 
 
+enum
+{
+    HRS_SVC_IDX,
+    DIS_SVC_IDX,
+#if 0
+    BAS_SVC_IDX,
+#endif
+    SERVICE_COUNT
+};
+
+
 /* Attributes State Machine */
 enum
 {
@@ -27,4 +38,14 @@ enum
     IDX_CHAR_VAL_C,
 
     HRS_IDX_NB,
+};
+
+
+enum
+{
+    IDX_DIS_SVC,
+    IDX_DIS_CHAR_MODEL_NUMBER,
+    IDX_DIS_CHAR_VAL_MODEL_NUMBER,
+
+    DIS_IDX_NB
 };
